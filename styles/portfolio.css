@@ -60,3 +60,26 @@ a:visited {
 .project-link {
   text-decoration: none;
 }
+.footer {
+  text-align: center;
+  padding: 60px;
+  margin-top: 52px;
+  background: #956769;
+  color: white;
+}
+.footer-link {
+  margin-right: 10px;
+}
+.footer span {
+  font-family: "Libre Baskerville", serif;
+  font-size: 22px;
+  text-decoration: underline;
+}
+.footer div {
+  font-family: "Nixie One", cursive;
+  font-style: italic;
+}
+.social-media {
+  display: flex;
+  justify-content: center;
+}
