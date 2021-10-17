@@ -1,9 +1,37 @@
-h1 {
-  font-family: Georgia, "Times New Roman", Times, serif;
-  font-weight: 700px;
+.hero {
   text-align: center;
+  background: #956769;
+  color: #fff;
+  padding-top: 68px;
+  padding-bottom: 10px;
 }
-p {
-  font-family: cursive;
-  text-align: center;
+.hero h1 {
+  font-family: "Nixie One", cursive;
+  font-size: 42px;
+  margin: 18px 0;
+}
+.hero h2 {
+  font-family: "Libre Baskerville", serif;
+  margin: 18px 0;
+  font-size: 22px;
+}
+.hero span {
+  font-family: "Libre Baskerville", serif;
+}
+.hero button {
+  padding: 12px 32px;
+  background: #fbb040;
+  margin-top: 32px;
+  border: 1px solid #fbb040;
+  border-radius: 22px;
+}
+.hero a {
+  color: #1b0d1c;
+  text-decoration: none;
+}
+.hero a:hover {
+  color: #fff;
+}
+.hero a:visited {
+  color: #1b0d1c;
 }
