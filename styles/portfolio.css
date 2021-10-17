@@ -1,3 +1,13 @@
+a {
+  color: #1b0d1c;
+}
+a:hover {
+  color: #fff;
+}
+a:visited {
+  color: #1b0d1c;
+}
+
 .hero {
   text-align: center;
   background: #956769;
@@ -18,20 +28,35 @@
 .hero span {
   font-family: "Libre Baskerville", serif;
 }
-.hero button {
+
+.content {
+  margin-top: 52px;
+}
+.content h2 {
+  font-family: "Nixie One", cursive;
+  background: #956769;
+  color: #fff;
+  padding: 5px;
+  border-radius: 4px;
+}
+.content p {
+  font-family: "Libre Baskerville", serif;
+}
+.content span {
+  display: flex;
+  justify-content: center;
+  color: #fbb040;
+  text-decoration: underline;
+  font-family: "Libre Baskerville", serif;
+  margin-bottom: 52px;
+}
+.btn-branding {
   padding: 12px 32px;
   background: #fbb040;
   margin-top: 32px;
   border: 1px solid #fbb040;
   border-radius: 22px;
 }
-.hero a {
-  color: #1b0d1c;
+.project-link {
   text-decoration: none;
-}
-.hero a:hover {
-  color: #fff;
-}
-.hero a:visited {
-  color: #1b0d1c;
 }
